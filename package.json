@@ -1,6 +1,6 @@
 {
     "name": "@ayanobot/pride",
-    "description": "Ayano's pride pfp generator! (:",
+    "description": "Ayano's pride image generator! (:",
     "version": "1.0.0",
     "main": "dist/index.js",
     "types": "index.d.ts",
@@ -9,7 +9,7 @@
     "license": "MIT",
     "packageManager": "yarn@3.0.2",
     "scripts": {
-        "build": "tsc",
+        "build": "gulp",
         "docs": "docgen --jsdoc jsdoc.json --source src/*.ts src/**/*.ts --custom docs/index.yml --output docs/docs.json",
         "docs:test": "docgen --jsdoc jsdoc.json --source src/*.ts src/**/*.ts --custom docs/index.yml",
         "prepare": "husky install"
@@ -26,12 +26,19 @@
         "@discordjs/docgen": "discordjs/docgen#ts-patch",
         "@types/babel__core": "^7",
         "@types/babel__preset-env": "^7",
+        "@types/gulp": "^4",
+        "@types/gulp-uglify": "^3",
         "@types/jimp": "^0.2.28",
         "@types/node": "^16.10.2",
         "@types/sharp": "^0",
+        "gulp": "^4.0.2",
+        "gulp-cli": "^2.3.0",
+        "gulp-typescript": "^6.0.0-alpha.1",
+        "gulp-uglify": "^3.0.2",
         "husky": "^7.0.2",
         "jsdoc-babel": "^0.5.0",
         "pre-commit": "^1.2.2",
+        "readable-stream": "^3.6.0",
         "typescript": "^4.4.3"
     },
     "keywords": [

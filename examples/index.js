@@ -6,6 +6,7 @@ const https = require('https');
 const client = new Discord.Client({
     intents: ['GUILDS', 'GUILD_PRESENCES', 'GUILD_MEMBERS', 'GUILD_MESSAGES']
 });
+const pride = new Pride();
 
 client.login('your-super-secret-token');
 
@@ -14,7 +15,7 @@ client.on('ready', () => console.log('I have connected to Discord!'));
 client.on('messageCreate', async msg => {
     if (msg.content.startsWith('!pansexual')) {
         // Get the user's pfp as a buffer
-        https.get(msg.author.avatarURL(), res => {
+        https.get(msg.author.avatarURL({ size: 512 }), res => {
             let data = [];
 
             res.on('data', chunk => data.push(chunk));
@@ -23,7 +24,7 @@ client.on('messageCreate', async msg => {
                 const buffer = Buffer.concat(data);
 
                 // Generate the pride pfp
-                const image = await Pride.pansexual(buffer, 0.5);
+                const image = await pride.pansexual(buffer, 0.5);
                 const attachment = new Discord.MessageAttachment(image);
 
                 msg.reply({ files: [attachment] });
