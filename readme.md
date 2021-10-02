@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="https://github.com/ayanobot/pride/raw/main/example.png"><br>
+	<img src="https://github.com/ayanobot/pride/raw/main/example.png" height="250"><br>
 	<sub>An example of the pansexual flag overlayed on one of newt's pfp!</sub>
 	<h1>@ayanobot/pride</h1>
 	<code>npm i @ayanobot/pride</code> 
