@@ -1,0 +1,8 @@
+src
+examples
+docs
+example.png
+.env
+.github
+.husky
+jsdoc.json
