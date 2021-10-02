@@ -41,7 +41,7 @@ class Pride {
     /**
      * Overlay the agender flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static agender(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -51,7 +51,7 @@ class Pride {
     /**
      * Overlay the heterosexual ally flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static ally(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -61,7 +61,7 @@ class Pride {
     /**
      * Overlay the aromantic flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static aromantic(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -71,7 +71,7 @@ class Pride {
     /**
      * Overlay the asexual flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static asexual(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -81,7 +81,7 @@ class Pride {
     /**
      * Overlay the bisexual flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static bisexual(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -91,7 +91,7 @@ class Pride {
     /**
      * Overlay the demisexual flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static demisexual(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -101,7 +101,7 @@ class Pride {
     /**
      * Overlay the genderfluid flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static genderfluid(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -111,7 +111,7 @@ class Pride {
     /**
      * Overlay the gender-queer flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static genderqueer(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -121,7 +121,7 @@ class Pride {
     /**
      * Overlay the homosexual flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static homosexual(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -131,7 +131,7 @@ class Pride {
     /**
      * Overlay the intersex flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static intersex(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -141,7 +141,7 @@ class Pride {
     /**
      * Overlay the lesbian flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static lesbian(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -151,7 +151,7 @@ class Pride {
     /**
      * Overlay the nonbinary flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static nonbinary(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -161,7 +161,7 @@ class Pride {
     /**
      * Overlay the pansexual flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static pansexual(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -171,7 +171,7 @@ class Pride {
     /**
      * Overlay the polyamorous flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static polyamory(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -181,7 +181,7 @@ class Pride {
     /**
      * Overlay the polysexual flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static polysexual(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -191,7 +191,7 @@ class Pride {
     /**
      * Overlay the progress flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static progress(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
@@ -201,7 +201,7 @@ class Pride {
     /**
      * Overlay the transgender flag over an image!
      * @param {Buffer} imageBuffer The buffer of the image to overlay the flag onto
-     * @param {number} [opacity] The opacity to set the flag to
+     * @param {number} [opacity=0.5] The opacity to set the flag to
      * @returns {Promise<Buffer>}
      */
     static transgender(imageBuffer: Buffer, opacity?: number): Promise<Buffer> {
